@@ -111,7 +111,7 @@ CREATE TABLE `session` (
   `session_start` varchar(45) NOT NULL,
   `session_end` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`session_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=55 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=61 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -120,7 +120,7 @@ CREATE TABLE `session` (
 
 LOCK TABLES `session` WRITE;
 /*!40000 ALTER TABLE `session` DISABLE KEYS */;
-INSERT INTO `session` VALUES (1,'amorales','09/03/2017 13:03:45','final'),(2,'amorales','09/03/2017 13:22:11','final'),(3,'sakly','09/03/2017 13:22:23','final'),(4,'sakly','09/03/2017 13:26:14','final'),(5,'sakly','09/03/2017 13:27:37','final'),(6,'sakly','09/03/2017 13:33:22','final'),(7,'amorales','09/03/2017 13:33:46','final'),(8,'amorales','09/03/2017 21:12:04','final'),(9,'sakly','09/03/2017 21:12:18','final'),(10,'sakly','09/03/2017 21:22:17','final'),(11,'amorales','20/03/2017 23:23:06','final'),(12,'amorales','20/03/2017 23:48:07','final'),(13,'amorales','20/03/2017 23:50:46','final'),(14,'amorales','20/03/2017 23:52:20','final'),(15,'amorales','20/03/2017 23:59:26','finally'),(16,'sakly','21/03/2017 22:40:19','finallys'),(17,'amorales','21/03/2017 22:47:17',NULL),(18,'amorales','21/03/2017 22:50:23','finallys'),(19,'amorales','21/03/2017 22:55:00','21/03/2017 22:55:10'),(20,'amorales','21/03/2017 22:57:55','21/03/2017 22:58:02'),(21,'sakly','21/03/2017 23:00:35','21/03/2017 23:00:41'),(22,'amorales','21/03/2017 23:02:11','21/03/2017 23:02:18'),(23,'amorales','23/03/2017 21:59:23','23/03/2017 21:59:59'),(24,'amorales','23/03/2017 22:28:51',NULL),(25,'amorales','23/03/2017 22:30:48','23/03/2017 22:37:36'),(26,'amorales','23/03/2017 22:37:53',NULL),(27,'amorales','23/03/2017 22:49:30',NULL),(28,'amorales','23/03/2017 22:53:55',NULL),(29,'amorales','23/03/2017 23:07:06','23/03/2017 23:07:53'),(30,'amorales','23/03/2017 23:09:33',NULL),(31,'amorales','04/04/2017 20:20:19',NULL),(32,'amorales','04/04/2017 20:25:42',NULL),(33,'amorales','04/04/2017 23:34:44','04/04/2017 23:36:35'),(34,'amorales','04/04/2017 23:36:47',NULL),(35,'amorales','04/04/2017 23:38:50',NULL),(36,'amorales','04/04/2017 23:39:32',NULL),(37,'amorales','04/04/2017 23:45:01',NULL),(38,'amorales','04/04/2017 23:48:00','04/04/2017 23:48:46'),(39,'amorales','05/04/2017 21:26:07','05/04/2017 21:26:34'),(40,'amorales','05/04/2017 21:39:11',NULL),(41,'amorales','05/04/2017 21:49:45','05/04/2017 21:49:50'),(42,'amorales','05/04/2017 21:51:27',NULL),(43,'amorales','05/04/2017 21:54:08',NULL),(44,'amorales','05/04/2017 21:54:53',NULL),(45,'amorales','05/04/2017 21:56:19',NULL),(46,'amorales','05/04/2017 22:04:00','05/04/2017 22:04:32'),(47,'amorales','05/04/2017 22:05:19','05/04/2017 22:06:33'),(48,'amorales','05/04/2017 22:13:44','05/04/2017 22:14:41'),(49,'amorales','05/04/2017 22:15:33',NULL),(50,'amorales','05/04/2017 22:20:27',NULL),(51,'amorales','05/04/2017 22:22:25','05/04/2017 22:22:52'),(52,'sakly','05/04/2017 22:27:00','05/04/2017 22:27:11'),(53,'amorales','05/04/2017 22:27:17','05/04/2017 22:27:53'),(54,'amorales','05/04/2017 22:29:28','05/04/2017 22:29:57');
+INSERT INTO `session` VALUES (1,'amorales','09/03/2017 13:03:45','final'),(2,'amorales','09/03/2017 13:22:11','final'),(3,'sakly','09/03/2017 13:22:23','final'),(4,'sakly','09/03/2017 13:26:14','final'),(5,'sakly','09/03/2017 13:27:37','final'),(6,'sakly','09/03/2017 13:33:22','final'),(7,'amorales','09/03/2017 13:33:46','final'),(8,'amorales','09/03/2017 21:12:04','final'),(9,'sakly','09/03/2017 21:12:18','final'),(10,'sakly','09/03/2017 21:22:17','final'),(11,'amorales','20/03/2017 23:23:06','final'),(12,'amorales','20/03/2017 23:48:07','final'),(13,'amorales','20/03/2017 23:50:46','final'),(14,'amorales','20/03/2017 23:52:20','final'),(15,'amorales','20/03/2017 23:59:26','finally'),(16,'sakly','21/03/2017 22:40:19','finallys'),(17,'amorales','21/03/2017 22:47:17',NULL),(18,'amorales','21/03/2017 22:50:23','finallys'),(19,'amorales','21/03/2017 22:55:00','21/03/2017 22:55:10'),(20,'amorales','21/03/2017 22:57:55','21/03/2017 22:58:02'),(21,'sakly','21/03/2017 23:00:35','21/03/2017 23:00:41'),(22,'amorales','21/03/2017 23:02:11','21/03/2017 23:02:18'),(23,'amorales','23/03/2017 21:59:23','23/03/2017 21:59:59'),(24,'amorales','23/03/2017 22:28:51',NULL),(25,'amorales','23/03/2017 22:30:48','23/03/2017 22:37:36'),(26,'amorales','23/03/2017 22:37:53',NULL),(27,'amorales','23/03/2017 22:49:30',NULL),(28,'amorales','23/03/2017 22:53:55',NULL),(29,'amorales','23/03/2017 23:07:06','23/03/2017 23:07:53'),(30,'amorales','23/03/2017 23:09:33',NULL),(31,'amorales','04/04/2017 20:20:19',NULL),(32,'amorales','04/04/2017 20:25:42',NULL),(33,'amorales','04/04/2017 23:34:44','04/04/2017 23:36:35'),(34,'amorales','04/04/2017 23:36:47',NULL),(35,'amorales','04/04/2017 23:38:50',NULL),(36,'amorales','04/04/2017 23:39:32',NULL),(37,'amorales','04/04/2017 23:45:01',NULL),(38,'amorales','04/04/2017 23:48:00','04/04/2017 23:48:46'),(39,'amorales','05/04/2017 21:26:07','05/04/2017 21:26:34'),(40,'amorales','05/04/2017 21:39:11',NULL),(41,'amorales','05/04/2017 21:49:45','05/04/2017 21:49:50'),(42,'amorales','05/04/2017 21:51:27',NULL),(43,'amorales','05/04/2017 21:54:08',NULL),(44,'amorales','05/04/2017 21:54:53',NULL),(45,'amorales','05/04/2017 21:56:19',NULL),(46,'amorales','05/04/2017 22:04:00','05/04/2017 22:04:32'),(47,'amorales','05/04/2017 22:05:19','05/04/2017 22:06:33'),(48,'amorales','05/04/2017 22:13:44','05/04/2017 22:14:41'),(49,'amorales','05/04/2017 22:15:33',NULL),(50,'amorales','05/04/2017 22:20:27',NULL),(51,'amorales','05/04/2017 22:22:25','05/04/2017 22:22:52'),(52,'sakly','05/04/2017 22:27:00','05/04/2017 22:27:11'),(53,'amorales','05/04/2017 22:27:17','05/04/2017 22:27:53'),(54,'amorales','05/04/2017 22:29:28','05/04/2017 22:29:57'),(55,'amorales','06/04/2017 21:38:48','06/04/2017 21:40:05'),(56,'amorales','07/04/2017 09:03:58','07/04/2017 09:05:45'),(57,'amorales','10/04/2017 15:26:47','10/04/2017 15:26:51'),(58,'amorales','10/04/2017 15:41:04','10/04/2017 15:41:21'),(59,'amorales','10/04/2017 15:52:03','10/04/2017 15:53:27'),(60,'rfinol','10/04/2017 15:53:35','10/04/2017 15:53:39');
 /*!40000 ALTER TABLE `session` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -146,7 +146,7 @@ CREATE TABLE `user` (
   `user_password` varchar(45) NOT NULL,
   `user_registrationDate` varchar(45) NOT NULL,
   PRIMARY KEY (`user_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -155,7 +155,7 @@ CREATE TABLE `user` (
 
 LOCK TABLES `user` WRITE;
 /*!40000 ALTER TABLE `user` DISABLE KEYS */;
-INSERT INTO `user` VALUES (3,'3333','ANTHONY','MORALES','SALAZAR','5555','','ADDRESS','MAIL','ADMIN','amorales','cxome','09/03/2017 11:29:19'),(4,'4444','STEVEN','AKLY','NOTARO','7665','','ADDRESS','MAIL','USER','sakly','ulkgc','09/03/2017 11:35:57');
+INSERT INTO `user` VALUES (3,'3333','ANTHONY','MORALES','SALAZAR','5555','','ADDRESS','MAIL','ADMIN','amorales','cxome','09/03/2017 11:29:19'),(4,'4444','STEVEN','AKLY','NOTARO','7665','','ADDRESS','MAIL','USER','sakly','ulkgc','09/03/2017 11:35:57'),(8,'5555','MARIA','ANGULO','','5674','','','MAIL','USER','mangulo','olnby','10/04/2017 15:52:44'),(9,'6666','RAUL','FINOL','','874343','','','MAIL','ADMIN','rfinol','tqiis','10/04/2017 15:53:12');
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -168,4 +168,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2017-04-05 22:37:51
+-- Dump completed on 2017-04-10 15:55:19
